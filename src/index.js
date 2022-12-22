@@ -1,10 +1,6 @@
 /**
  * DOM SELECTORS
  */
-import sound1 from "../assets/simon-says-sound-1.mp3";
-import sound2 from "../assets/simon-says-sound-2.mp3";
-import sound3 from "../assets/simon-says-sound-3.mp3";
-import sound4 from "../assets/simon-says-sound-4.mp3";
 
 const startButton = document.querySelector(".js-start-button");
 
@@ -45,25 +41,25 @@ const pads = [
   {
     color: "red",
     selector: document.querySelector(".js-pad-red"),
-    sound: new Audio(sound1),
+    sound: new Audio("https://github.com/morgscodes/copy-cat-FINAL3/blob/main/assets/simon-says-sound-1.mp3?raw=true"),
   },
 
   {
     color: "green",
     selector: document.querySelector(".js-pad-green"),
-    sound: new Audio(sound2),
+    sound: new Audio("https://github.com/morgscodes/copy-cat-FINAL3/blob/main/assets/simon-says-sound-2.mp3?raw=true"),
   },
 
   {
     color: "blue",
     selector: document.querySelector(".js-pad-blue"),
-    sound: new Audio(sound3),
+    sound: new Audio("https://github.com/morgscodes/copy-cat-FINAL3/blob/main/assets/simon-says-sound-3.mp3?raw=true"),
   },
 
   {
     color: "yellow",
     selector: document.querySelector(".js-pad-yellow"),
-    sound: new Audio(sound4),
+    sound: new Audio("https://github.com/morgscodes/copy-cat-FINAL3/blob/main/assets/simon-says-sound-4.mp3?raw=true"),
   },
 
   // TODO: Add the objects for the green, blue, and yellow pads. Use object for the red pad above as an example.
